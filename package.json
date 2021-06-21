@@ -1,0 +1,26 @@
+{
+  "name": "github-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:dev": "node ./src/index_reset.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.33",
+    "jsonfile": "^6.1.0",
+    "simple-git": "^2.39.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.13.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.16.0",
+    "eslint-plugin-mocha": "^8.1.0"
+  }
+}
